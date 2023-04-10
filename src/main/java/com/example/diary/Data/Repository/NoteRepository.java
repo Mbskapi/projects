@@ -1,0 +1,7 @@
+package Data.Repository;
+
+import Data.model.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface NoteRepository extends JpaRepository<User, Integer> {
+}
